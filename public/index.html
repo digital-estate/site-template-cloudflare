@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Title Here</title>
+  <meta name="description" content="Write a clean 150–160 character meta description here." />
+  <link rel="canonical" href="https://example.com/" />
+
+  <meta property="og:title" content="Site Title Here" />
+  <meta property="og:description" content="Write a clean 150–160 character meta description here." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="/styles/core.css" />
+  <link rel="stylesheet" href="/styles/skin-a.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Site Title Here",
+    "url": "https://example.com/"
+  }
+  </script>
+</head>
+
+<body>
+  <header class="wrap header">
+    <a class="brand" href="/">Brand</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Category / Niche</p>
+      <h1>Primary Keyword / Core Promise</h1>
+      <p class="lede">
+        2–3 sentences explaining exactly what this site offers.
+      </p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>What This Is</h2>
+      <p>
+        This is your first SEO paragraph. Write clearly and naturally.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Step one</li>
+        <li>Step two</li>
+        <li>Step three</li>
+      </ol>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>Common Questions</h2>
+      <details>
+        <summary>Question one?</summary>
+        <p>Answer.</p>
+      </details>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form>
+        <input placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="y"></span> Brand</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
