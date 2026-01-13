@@ -1,0 +1,13 @@
+body{ background:#ffffff; color:#0b0f19; }
+
+.brand{ color:#0b0f19; }
+.nav a{ color:#0b0f19; opacity:.85; }
+.nav a:hover{ opacity:1; }
+
+.hero h1{ letter-spacing:-0.02em; }
+
+button{
+  background:#0b0f19;
+  color:#ffffff;
+  border-color: transparent;
+}
